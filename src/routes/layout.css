@@ -1,0 +1,68 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+@import '@fontsource/rubik-mono-one';
+
+@font-face {
+    font-family: "Alte Haas Grotesk";
+    src: url("/fonts/alte-haas-grotesk/AlteHaasGroteskRegular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Alte Haas Grotesk";
+    src: url("/fonts/alte-haas-grotesk/AlteHaasGroteskBold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@theme {
+    --color-light: #F7FFF7;
+    --color-dark: #29362F;
+
+    /* primary: 300 and 600 are the original brand colours */
+    --color-primary-50: #F8F6FF;
+    --color-primary-100: #EEEBFE;
+    --color-primary-200: #DED7FC;
+    --color-primary-300: #C8B9FF;
+    --color-primary-400: #B396FF;
+    --color-primary-500: #A577FF;
+    --color-primary-600: #9747FF;
+    --color-primary-700: #7E2BDD;
+    --color-primary-800: #6722B6;
+    --color-primary-900: #542393;
+    --color-primary-950: #320E5D;
+
+    /* secondary: 300 and 600 are the original brand colours */
+    --color-secondary-50: #FFF4F7;
+    --color-secondary-100: #FDE1E8;
+    --color-secondary-200: #FBBFCF;
+    --color-secondary-300: #F888AB;
+    --color-secondary-400: #E17093;
+    --color-secondary-500: #CF5B7F;
+    --color-secondary-600: #B94368;
+    --color-secondary-700: #9B3455;
+    --color-secondary-800: #7F2D46;
+    --color-secondary-900: #6A293C;
+    --color-secondary-950: #431824;
+
+    /* ternary: 300 and 600 are the original brand colours */
+    --color-ternary-50: #F4FAEC;
+    --color-ternary-100: #E4F1D1;
+    --color-ternary-200: #CAE0A4;
+    --color-ternary-300: #A7C768;
+    --color-ternary-400: #8AAE5D;
+    --color-ternary-500: #739956;
+    --color-ternary-600: #5B814A;
+    --color-ternary-700: #4C6940;
+    --color-ternary-800: #405637;
+    --color-ternary-900: #374830;
+    --color-ternary-950: #212C1C;
+
+    /* font-sans is the default font for the whole page */
+    --font-sans: "Alte Haas Grotesk", Arial, sans-serif;
+    --font-alte-haas: "Alte Haas Grotesk", Arial, sans-serif;
+    --font-rubik-mono: "Rubik Mono One", monospace;
+}
