@@ -1,2 +1,7 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+    import LandingSection from "../components/landing/landing-section.svelte";
+
+</script>
+<main class="pt-33.75 px-3 pb-25 lg:px-6 lg:pb-6 lg:pt-20">
+    <LandingSection />
+</main>
