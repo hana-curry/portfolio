@@ -4,7 +4,7 @@
     import Title from "./title.svelte";
 </script>
 
-<header class="fixed flex flex-col border-x-12 lg:border-x-24 lg:border-b-24 w-screen h-screen border-ternary-800 lg:grid lg:grid-cols-[1fr_1fr_auto_1fr_1fr] lg:grid-rows-[auto_1fr]">
+<header class="fixed z-1000 flex flex-col border-x-12 lg:border-x-24 lg:border-b-24 w-screen h-screen border-ternary-800 lg:grid lg:grid-cols-[1fr_1fr_auto_1fr_1fr] lg:grid-rows-[auto_1fr]">
     <Title />
 
     <div class="relative grow text-ternary-800 lg:col-span-full lg:row-start-2">
