@@ -7,3 +7,7 @@
         Hana Colle
     </a>
 </div>
+
+<style>
+    div {pointer-events: all;}
+</style>

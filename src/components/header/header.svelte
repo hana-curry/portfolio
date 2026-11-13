@@ -16,3 +16,9 @@
 
     <Navigation />
 </header>
+
+<style>
+    header {
+        pointer-events: none;
+    }
+</style>
