@@ -11,3 +11,7 @@
         <NavigationLink to="#experience" label="Experience" isCurrent={false} Icon={Contact} />
     </ul>
 </nav>
+
+<style>
+    nav {pointer-events: all;}
+</style>

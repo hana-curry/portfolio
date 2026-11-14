@@ -12,7 +12,5 @@
 </section>
 
 <style>
-    section {
-        background-color: var(--color-light);
-    }
+    section { background-color: var(--color-light) }
 </style>

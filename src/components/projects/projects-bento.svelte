@@ -44,10 +44,30 @@
     ul {
         display: grid;
         grid-template: 
-        'a b b c c'
-        'a b b d d'
-        'a e f d d';
-        padding: 5rem 20%;
-        gap: 1rem;
+        'a d d'
+        'a d d'
+        'a c c'
+        'e b b'
+        'f b b';
+        padding: 2rem 10%;
+        gap: .5rem;
+        
+    }
+
+    @media (width >= 640px) {
+        ul {
+            grid-template: 
+            'a b b c c'
+            'a b b d d'
+            'a e f d d';
+            padding: 2.5rem 10%;
+        }
+    }
+
+    @media (width >= 1024px) {
+        ul {
+            padding: 3.5rem 20%;
+            gap: 0.75rem;
+        }
     }
 </style>
