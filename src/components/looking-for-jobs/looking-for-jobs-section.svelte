@@ -1,6 +1,6 @@
 <section>
     <a href="mailto:hana.colle@proton.me">
-        <h2>Je cherche un emploi!</h2>
+        <h2 id="looking-for-jobs">Je cherche un emploi!</h2>
         <img src="/assets/looking-for-jobs-artifact.svg" aria-hidden="true" alt="">
     </a>
 </section>

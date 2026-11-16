@@ -2,6 +2,10 @@
 @plugin '@tailwindcss/typography';
 @import '@fontsource/rubik-mono-one';
 
+html {
+    scroll-behavior: smooth;
+}
+
 @font-face {
     font-family: "Alte Haas Grotesk";
     src: url("/fonts/alte-haas-grotesk/AlteHaasGroteskRegular.ttf") format("truetype");

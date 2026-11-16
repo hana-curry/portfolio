@@ -1,5 +1,5 @@
 <div>
-    <h2>Mes Projets</h2>
+    <h2 id="projects">Mes Projets</h2>
     <div id="pink-background" aria-hidden="true"></div>
     <div id="purple-background" aria-hidden="true"></div>
     <div id="green-background" aria-hidden="true"></div>
@@ -12,6 +12,7 @@
         overflow: hidden;
         z-index: 10;
         h2 {
+            scroll-margin-top: 4.25rem;
             z-index: 13;
             display: flex;
             align-items: center;
