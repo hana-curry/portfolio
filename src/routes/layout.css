@@ -4,6 +4,7 @@
 
 html {
     scroll-behavior: smooth;
+    background-color: var(--color-primary-400);
 }
 
 @font-face {

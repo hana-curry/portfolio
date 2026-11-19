@@ -1,4 +1,4 @@
-<div class="flex w-full h-33.75 pt-6 lg:pt-0 justify-center items-center bg-ternary-800 lg:col-start-3 lg:row-start-1 lg:px-12 lg:h-20">
+<div class="flex w-full h-33.75 pt-6 lg:pt-0 justify-center items-center bg-ternary-800 lg:col-start-2 lg:row-start-1 lg:px-12 lg:h-20">
     <a
     href="/"
     title="Home"

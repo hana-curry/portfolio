@@ -1,20 +1,22 @@
 <script lang="ts">
   import type { Snippet } from "svelte";
-    import type { HTMLButtonAttributes } from "svelte/elements";
+    import type { HTMLAnchorAttributes, HTMLButtonAttributes, HTMLLinkAttributes } from "svelte/elements";
 
-    export interface ButtonProps extends HTMLButtonAttributes {
+    export interface ButtonProps extends HTMLAnchorAttributes {
         children: Snippet
     }
 
     let {children, ...props }: ButtonProps = $props();
 </script>
 
-<button {...props}>
+<a {...props}>
     {@render children?.()}
-</button>
+</a>
 
 <style>
-    button {
+    a {
+        display: flex;
+        justify-content: center;
         cursor: pointer;
         background-color: var(--color-secondary-300);
         padding-block: .625rem;
@@ -22,12 +24,12 @@
         transition-duration: 100ms;
     }
 
-    button:disabled {
+    a:disabled {
         cursor: not-allowed;
         background-color: var(--color-secondary-500);
     }
 
-    button:hover, button:focus-visible {
+    a:hover, a:focus-visible {
         background-color: var(--color-primary-300);
     }
 </style>

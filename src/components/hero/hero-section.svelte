@@ -12,7 +12,7 @@
             Je suis une jeune diplomée d’un bachelier en informatique. 
             J'aime apprendre de nouvelles choses chaque jour et j'aimerais que mon travail puisse aider les autres.
         </p>
-        <Button>Mon travail</Button>
+        <Button href="#projects" >Mon travail</Button>
     </div>
     <div aria-hidden="true" id="decoration-container">
         <img alt="" src="/assets/hero-top-right-artifacts.svg">
@@ -81,7 +81,6 @@
 
                 img {
                     position: absolute;
-                    top: 1rem;
                     right: 1rem;
                 }
             }

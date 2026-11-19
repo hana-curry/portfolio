@@ -10,7 +10,7 @@
         display: block;
         position: relative;
         height: fit-content;
-        background-color: var(--color-primary-300);
+        background-color: var(--color-primary-400);
         transition-duration: 200ms;
 
         img {
@@ -37,9 +37,9 @@
     }
 
     section > a:hover {
-        background-color: var(--color-primary-200);
+        background-color: var(--color-primary-300);
         img {
-            opacity: 0.4;
+            opacity: 0.8;
         }
     }
 </style>
